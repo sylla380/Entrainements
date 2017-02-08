@@ -1,0 +1,51 @@
+header{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+
+p{
+    text-align: right;
+}
+
+img{
+    image-resolution: from-image;;
+}
+
+nav{
+    text-align: center;
+}
+hr{
+    width: 400px;
+    border-top: 1px solid black;
+}
+
+h2{
+    text-align: left;
+
+}
+
+p{
+    text-align: left;
+    font-size: small
+}
+
+.perso1 img{
+
+    float: left;
+    height: 200px;
+    width: 200px;
+    transition: margin 0.5s;
+    margin: 15px;
+}
+
+.perso1{
+    margin: 50px 0 0 50px;
+}
+
+.clear{
+    clear: both;
+}
