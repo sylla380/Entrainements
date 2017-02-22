@@ -1,0 +1,134 @@
+<!-- @formateur
+
+1- les derniers "détails" de mise en forme sont volontairement laissés à finaliser pour que les étudiants rentrent dans ce code html/css et testent, via la console de déguggage, les derniers ajustements à réaliser et implémenter dans leur propre code
+
+2- La partie d'inclusion de font-awesome est effectuée ensemble avec tous les étudiants en fin de "parcours"
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Entraînement - soluce01</title>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="elements/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h2 class="titre">city guide - paris</h2>
+        <hr />
+        <h1 class="titre">Le Bilan</h1>
+        <hr />
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#salle">Salle -</a></li>
+            <li><a href="#service">Service -</a></li>
+            <li><a href="#dressage">Dressage -</a></li>
+            <li><a href="#gout">Goût</a></li>
+        </ul>
+    </nav>
+
+    <section id="exemple">
+        <div class="case-left">
+            <img src="img/plate.jpg" alt="chaises">
+        </div>
+        <div class="case-right">
+            <h3>Exemple de plat</h3>
+            <hr />
+            <p>Merlu de ligne</p>
+            <p>Carottes nouvelles</p>
+            <p>Epices douces</p>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section id="salle">
+        <div class="case-left txt1">
+            <h2>La salle</h2>
+            <hr />
+            <p>Ambience brut, table en bois ancien,beton ciré au sol. La salle lumineuse est très agréable, elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à une rue sur un petit jardin parisien. A l'entrée un joli sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes...</p>
+            <p>Le nombre des tables est limité, ce qui rend le restaurant très appréciable, mais aussi trés prisé !</p>
+            <span>La note <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></span>
+        </div>
+        <div class="case-right">
+            <img src="img/restaurent_01.jpg" alt="salle">
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section id="service">
+        <div class="case-left">
+            <img src="img/restaurent_02.jpg" alt="restaurant">
+        </div>
+        <div class="case-right">
+            <h2>Le service</h2>
+            <hr />
+            <p>Service toujours impeccable. L'ensemble de la table est servi rapidement, la corbeille de pain régulièrement pleine, les serveurs expliquent le menu avec beaucoup d'attentions et sont d'excellents conseils pour marier mets-vins.</p>
+            <p>On reconnaît l'ensemble de l'équipe à leurs tabliers bleu.</p>
+            <span>La note<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></span>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section id="dressage">
+        <div class="case-left">
+            <h2>Le dressage</h2>
+            <hr />
+            <p>Le dressage c'est un peu la marque de fabrique du chef, avec la cuisine biensûr. Ses plats sont de vrais petits tableaux de maître. Une belle recherche dans les formes et couleurs trés agréable visuellement.</p>
+            <span>La note<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></span>
+        </div>
+        <div class="case-right">
+            <img src="img/restaurent_03.jpg" alt="assiettes">
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section id="gout">
+        <div class="case-left">
+            <img src="img/restaurent_04.jpg" alt="poisson">
+        </div>
+        <div class="case-right">
+            <h2>Le goût</h2>
+            <hr />
+            <p>Last but not least, le goût. C'est le pont le plus important, et tellement bien ajusté ici. Les papilles voltent et virevolte au rythme des saveurs si justes, des cuissons si parfaitement maîtrisées.</p>
+            <p>Chaque plat, chaque association, rien n'est laissé au hasard, de l'élément principal à la toute petite feuille d'herbe délicatement posée sur le dessus du plat. Emerveillement des sens et frénésie de créativité sont au rendez vous.</p>
+            <span>La note
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <footer>
+        <h5 class="titre">city guide</h5>
+        <hr />
+        <h3 class="titre">Septime</h3>
+        <hr />
+        <p>30 rue de Charonne - 75013 Paris</p>
+        <p>01 43 67 38 29</p>
+        <em>Lundi soir - Mardi à Vendredi midi & soir</em>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
